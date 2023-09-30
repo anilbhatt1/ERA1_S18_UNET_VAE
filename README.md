@@ -128,12 +128,27 @@ ________
     - MP + TransposeConv + BCE
         - File : ERA1_S18_UNET_mptrbce.ipynb
         - Link : https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/blob/master/ERA1_S18_UNET_mptrbce.ipynb
+        - Results
+
+            ![mptrbce](https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/assets/43835604/21d55d24-07f7-4682-ae0c-4c3ef9c94772)
+
+
     - MP + TransposeConv + Dice Loss
         - File : ERA1_S18_UNET_mptrdice.ipynb
         - Link : https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/blob/master/ERA1_S18_UNET_mptrdice.ipynb
+        - Results
+     
+            ![mptrdice](https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/assets/43835604/e7b22c45-6adb-4e4b-8770-d7c4d045b318)
+
+
     - StridedConv + TransposeConv + BCE
         - File : ERA1_S18_UNET_strtrbce.ipynb
         - Link : https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/blob/master/ERA1_S18_UNET_strtrbce.ipynb
+        - Results
+     
+            
+
+
     - StridedConv + Upsampling + BCE
         - File : ERA1_S18_UNET_strUpsbce.ipynb
         - Link : https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/blob/master/ERA1_S18_UNET_strUpsbce.ipynb
