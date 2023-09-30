@@ -100,10 +100,21 @@ ________
         - Results
 
 - For Training details of **CIFAR-10 VAE**, refer below colab notebook locations:
-    - Takes in two inputs:
-        - a cifar10 image, and
-        - its label (one hot encoded vector sent through an embedding layer)
-File : ERA1_S18_CIFAR10_VAE_V0.ipynb
+    - File : ERA1_S18_CIFAR10_VAE_V0.ipynb
+        - Takes in two inputs:
+            - a cifar10 image, and
+            - its label (one hot encoded vector of [10] sent through an embedding layer)
+            - passed only to Encoder
+    - File : ERA1_S18_CIFAR10_VAE_V1.ipynb
+        - Takes in two inputs:
+            - a cifar10 image, and
+            - its label (one hot encoded vector of [10] sent through an embedding layer)
+            - This one-hot label is reshaped to (32, 32, 3) and labels changed.
+            - If actual label is 2, then column 3 and column 4 in 32x32 grid will be each given value of 0.5. 
+            - This 32x32x3 tensor is then added to the 32x32x3 image tensor 
+            - Combined tensor passed to the model encoder
+            - Results
+
 - **Dataset Used for UNET** : OxfordIIITPet
 - For Training details of , refer below colab notebook locations:
     - MP + TransposeConv + BCE
