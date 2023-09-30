@@ -80,14 +80,9 @@ ________
         - Combined tensor passed to the model encoder
         - The 28x28 one-hot tensor is also reshaped to 784 and passed to the decoder
         - In decoder , through a FC layer this is downsized to 256 and combined with encoder input
+        - Results
  
              ![MNIST_VAE_RESULTS_V3](https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/assets/43835604/63ebba75-9aa1-4e7b-8a48-0862d72d49e0)
-
-        -         
-        - Results
-
-              ![MNIST_VAE_RESULTS_V3](https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/assets/43835604/0587164e-0ba5-48e0-b945-4853cbed9215)
-
 
 - For Training details of **CIFAR-10 VAE**, refer below colab notebook locations:
     - Takes in two inputs:
