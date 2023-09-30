@@ -104,11 +104,13 @@ ________
         
 - For Training details of **CIFAR-10 VAE**, refer below colab notebook locations:
     - File : ERA1_S18_CIFAR10_VAE_V0.ipynb
+        - Link : https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/blob/master/ERA1_S18_CIFAR10_VAE_V0.ipynb
         - Takes in two inputs:
             - a cifar10 image, and
             - its label (one hot encoded vector of [10] sent through an embedding layer)
             - passed only to Encoder
     - File : ERA1_S18_CIFAR10_VAE_V1.ipynb
+        - Link : https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/blob/master/ERA1_S18_CIFAR10_VAE_V1.ipynb
         - Takes in two inputs:
             - a cifar10 image, and
             - its label (one hot encoded vector of [10] sent through an embedding layer)
@@ -124,13 +126,17 @@ ________
 - **Dataset Used for UNET** : OxfordIIITPet
 - For Training details of , refer below colab notebook locations:
     - MP + TransposeConv + BCE
-        File : ERA1_S18_UNET_mptrbce.ipynb
+        - File : ERA1_S18_UNET_mptrbce.ipynb
+        - Link : https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/blob/master/ERA1_S18_UNET_mptrbce.ipynb
     - MP + TransposeConv + Dice Loss
-        File : ERA1_S18_UNET_mptrdice.ipynb
+        - File : ERA1_S18_UNET_mptrdice.ipynb
+        - Link : https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/blob/master/ERA1_S18_UNET_mptrdice.ipynb
     - StridedConv + TransposeConv + BCE
-        File : ERA1_S18_UNET_strtrbce.ipynb
+        - File : ERA1_S18_UNET_strtrbce.ipynb
+        - Link : https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/blob/master/ERA1_S18_UNET_strtrbce.ipynb
     - StridedConv + Upsampling + BCE
-        File : ERA1_S18_UNET_strUpsbce.ipynb
+        - File : ERA1_S18_UNET_strUpsbce.ipynb
+        - Link : https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/blob/master/ERA1_S18_UNET_strUpsbce.ipynb
 <!-- LICENSE -->
 ## License
 
