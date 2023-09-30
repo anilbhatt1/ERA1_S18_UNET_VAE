@@ -146,12 +146,18 @@ ________
         - Link : https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/blob/master/ERA1_S18_UNET_strtrbce.ipynb
         - Results
      
-            
+            ![strtrbce](https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/assets/43835604/f0cf69aa-da7c-4613-8b63-6b4e04031eb7)
 
 
     - StridedConv + Upsampling + BCE
         - File : ERA1_S18_UNET_strUpsbce.ipynb
         - Link : https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/blob/master/ERA1_S18_UNET_strUpsbce.ipynb
+        - Results
+
+            ![strupsbce](https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/assets/43835604/58d4beda-9c1a-4053-9372-e33b98fcdeac)
+
+             
+      
 <!-- LICENSE -->
 ## License
 
