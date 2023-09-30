@@ -37,7 +37,8 @@ ________
         - Uses torch.add inside encoder to concatenate image tensor & one-hot label tensor. 
         - Results
 
-            ![MNIST_VAE_RESULTS_V0](https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/assets/43835604/4ba03cd5-426c-4562-be8b-952eea52f000)
+            ![MNIST_VAE_RESULTS_V0](https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/assets/43835604/21574a86-9c03-408d-9614-897cd1ba14a7)
+
 
     - File : ERA1_S18_MNIST_VAE_V1.ipynb 
         - Takes in two inputs:
@@ -49,7 +50,8 @@ ________
         - Combined tensor passed to the model encoder
         - Results
 
-            ![MNIST_VAE_RESULTS_V1](https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/assets/43835604/ec383248-dd61-4453-9f48-88206f3918df)
+            ![MNIST_VAE_RESULTS_V1](https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/assets/43835604/20475c66-0d2b-4f36-9e57-75b8b17c0068)
+
           
     - File : ERA1_S18_MNIST_VAE_V2.ipynb 
         - Takes in two inputs:
@@ -61,7 +63,8 @@ ________
         - Through a FC layer this is downsized to 256 and combined with encoder input         
         - Results
           
-             ![MNIST_VAE_RESULTS_V2](https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/assets/43835604/8abc28ee-db0c-4a52-8ed7-ab3a96eba1ed)
+             ![MNIST_VAE_RESULTS_V2](https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/assets/43835604/719953c7-4502-45bd-9d5f-a46d36f551f2)
+
              
     - File : ERA1_S18_MNIST_VAE_V3.ipynb 
         - Takes in two inputs:
@@ -75,7 +78,8 @@ ________
         - In decoder , through a FC layer this is downsized to 256 and combined with encoder input         
         - Results
 
-              ![MNIST_VAE_RESULTS_V3](https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/assets/43835604/5b76415d-29e3-49d9-bd9e-68f92f547ee4)
+              ![MNIST_VAE_RESULTS_V3](https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/assets/43835604/0587164e-0ba5-48e0-b945-4853cbed9215)
+
 
 - For Training details of **CIFAR-10 VAE**, refer below colab notebook locations:
     - Takes in two inputs:
