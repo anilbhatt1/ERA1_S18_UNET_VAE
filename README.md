@@ -50,6 +50,8 @@ ________
         - If actual label is 2, then column 3 in 28x28 grid will be given a value of 1. 
         - This 28x28 tensor is added to the 28x28 image tensor 
         - Combined tensor passed to the model encoder
+        - This 28x28 one-hot tensor is also reshaped to 784 and passed to the decoder
+        - Through a FC layer this is downsized to 256 and combined with encoder output
         - Results
 
             ![MNIST_VAE_RESULTS_V1](https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/assets/43835604/20475c66-0d2b-4f36-9e57-75b8b17c0068)
@@ -62,8 +64,8 @@ ________
             -   its label (one hot encoded vector sent through an embedding layer)
         - One-hot label changed to 28x28
         - If actual label is 2, then column 3 and column 4 in 28x28 grid will be each given value of 0.5. 
-        - This 28x28 tensor is reshaped to 784 and passed to the decoder
-        - Through a FC layer this is downsized to 256 and combined with encoder input         
+        - This 28x28 tensor is reshaped to 784 and passed to the decoder ONLY
+        - Through a FC layer this is downsized to 256 and combined with encoder output         
         - Results
           
              ![MNIST_VAE_RESULTS_V2](https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/assets/43835604/719953c7-4502-45bd-9d5f-a46d36f551f2)
@@ -79,10 +81,23 @@ ________
         - This 28x28 tensor is added to the 28x28 image tensor 
         - Combined tensor passed to the model encoder
         - The 28x28 one-hot tensor is also reshaped to 784 and passed to the decoder
-        - In decoder , through a FC layer this is downsized to 256 and combined with encoder input
+        - In decoder , through a FC layer this is downsized to 256 and combined with encoder output
         - Results
  
              ![MNIST_VAE_RESULTS_V3](https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/assets/43835604/63ebba75-9aa1-4e7b-8a48-0862d72d49e0)
+
+    - File : ERA1_S18_MNIST_VAE_V4.ipynb 
+        - Link : https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/blob/master/ERA1_S18_MNIST_VAE_V4.ipynb
+        - Takes in two inputs:
+            -   an MNIST image, and
+            -   its label (one hot encoded vector sent through an embedding layer)
+        - One-hot label changed to 28x28
+        - If actual label is 2, then column 4 and column 5 in 28x28 grid will be each given value of 0.5. 
+        - This 28x28 tensor is added to the 28x28 image tensor 
+        - Combined tensor passed to the model encoder
+        - The 28x28 one-hot tensor is also reshaped to 784 and passed to the decoder
+        - In decoder , through a FC layer this is downsized to 256 and combined with encoder output
+        - Results
 
 - For Training details of **CIFAR-10 VAE**, refer below colab notebook locations:
     - Takes in two inputs:
