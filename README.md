@@ -99,6 +99,9 @@ ________
         - In decoder , through a FC layer this is downsized to 256 and combined with encoder output
         - Results
 
+              ![MNIST_VAE_RESULTS_V4](https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/assets/43835604/0d25b275-aa8f-4b0a-87e4-21e749af0c1e)
+
+
 - For Training details of **CIFAR-10 VAE**, refer below colab notebook locations:
     - Takes in two inputs:
         - a cifar10 image, and
