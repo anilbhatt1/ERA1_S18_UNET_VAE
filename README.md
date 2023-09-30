@@ -118,6 +118,9 @@ ________
             - Combined tensor passed to the model encoder
             - Results
 
+                ![CIFAR10_VAE_RESULTS_v1](https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/assets/43835604/4a9e2202-dfba-4905-aaa7-2dacde9522f4)
+           
+
 - **Dataset Used for UNET** : OxfordIIITPet
 - For Training details of , refer below colab notebook locations:
     - MP + TransposeConv + BCE
