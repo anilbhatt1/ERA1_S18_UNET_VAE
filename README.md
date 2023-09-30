@@ -29,11 +29,43 @@ ________
 ## Code
 - **Dataset Used for VAE** : MNIST , Image Resolution : 28x28x1 , CIFAR-10, Image Resolution : 32x32x3
 - For Training details of **MNIST VAE**, refer below colab notebook locations:
-    - Takes in two inputs:
-        - an MNIST image, and
-        - its label (one hot encoded vector sent through an embedding layer)
-        - Passes one-hot label as input to model and uses torch.add to concatenate image tensor & one-hot label tensor. 
-File : ERA1_S18_MNIST_VAE_V0.ipynb
+    - File : ERA1_S18_MNIST_VAE_V0.ipynb 
+        - Takes in two inputs:
+            -   an MNIST image, and
+            -   its label (one hot encoded vector sent through an embedding layer)
+        - Passes one-hot label as input to model encoder 
+        - Uses torch.add inside encoder to concatenate image tensor & one-hot label tensor. 
+        - Results 
+    - File : ERA1_S18_MNIST_VAE_V1.ipynb 
+        - Takes in two inputs:
+            -   an MNIST image, and
+            -   its label (one hot encoded vector sent through an embedding layer)
+        - One-hot label changed to 28x28
+        - If actual label is 2, then column 3 in 28x28 grid will be given a value of 1. 
+        - This 28x28 tensor is added to the 28x28 image tensor 
+        - Combined tensor passed to the model encoder
+        - Results     
+    - File : ERA1_S18_MNIST_VAE_V2.ipynb 
+        - Takes in two inputs:
+            -   an MNIST image, and
+            -   its label (one hot encoded vector sent through an embedding layer)
+        - One-hot label changed to 28x28
+        - If actual label is 2, then column 3 and column 4 in 28x28 grid will be each given value of 0.5. 
+        - This 28x28 tensor is reshaped to 784 and passed to the decoder
+        - Through a FC layer this is downsized to 256 and combined with encoder input         
+        - Results     
+    - File : ERA1_S18_MNIST_VAE_V3.ipynb 
+        - Takes in two inputs:
+            -   an MNIST image, and
+            -   its label (one hot encoded vector sent through an embedding layer)
+        - One-hot label changed to 28x28
+        - If actual label is 2, then column 3 and column 4 in 28x28 grid will be each given value of 0.5. 
+        - This 28x28 tensor is added to the 28x28 image tensor 
+        - Combined tensor passed to the model encoder
+        - The 28x28 one-hot tensor is also reshaped to 784 and passed to the decoder
+        - In decoder , through a FC layer this is downsized to 256 and combined with encoder input         
+        - Results     
+
 - For Training details of **CIFAR-10 VAE**, refer below colab notebook locations:
     - Takes in two inputs:
         - a cifar10 image, and
