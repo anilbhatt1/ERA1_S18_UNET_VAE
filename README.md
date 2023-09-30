@@ -30,6 +30,7 @@ ________
 - **Dataset Used for VAE** : MNIST , Image Resolution : 28x28x1 , CIFAR-10, Image Resolution : 32x32x3
 - For Training details of **MNIST VAE**, refer below colab notebook locations:
     - File : ERA1_S18_MNIST_VAE_V0.ipynb 
+        - Link : https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/blob/master/ERA1_S18_MNIST_VAE_V0.ipynb
         - Takes in two inputs:
             -   an MNIST image, and
             -   its label (one hot encoded vector sent through an embedding layer)
@@ -41,6 +42,7 @@ ________
 
 
     - File : ERA1_S18_MNIST_VAE_V1.ipynb 
+        - Link : https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/blob/master/ERA1_S18_MNIST_VAE_V1.ipynb
         - Takes in two inputs:
             -   an MNIST image, and
             -   its label (one hot encoded vector sent through an embedding layer)
@@ -54,6 +56,7 @@ ________
 
           
     - File : ERA1_S18_MNIST_VAE_V2.ipynb 
+        - Link : https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/blob/master/ERA1_S18_MNIST_VAE_V2.ipynb
         - Takes in two inputs:
             -   an MNIST image, and
             -   its label (one hot encoded vector sent through an embedding layer)
@@ -67,6 +70,7 @@ ________
 
              
     - File : ERA1_S18_MNIST_VAE_V3.ipynb 
+        - Link : https://github.com/anilbhatt1/ERA1_S18_UNET_VAE/blob/master/ERA1_S18_MNIST_VAE_V3.ipynb
         - Takes in two inputs:
             -   an MNIST image, and
             -   its label (one hot encoded vector sent through an embedding layer)
